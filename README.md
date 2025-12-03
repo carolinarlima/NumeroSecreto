@@ -1,7 +1,7 @@
 # Número Secreto
 ## O projeto consiste em digitar o “número chute” até que ele valide com o “número secreto” e aparaça a imagem de parabenização para quem o acertar.
 ### Nesse código de JavaScript foram definidas as variáveis: **numeroMaximo**, **numeroSecreto**, **chute** e **tentativas**.
-#### **Uma breve explicação sobre a função de que cada variável no código:**
+#### **Uma breve explicação sobre a função de cada variável:**
    A variável **numeroMaximo** está com o valor 1000 (podendo ser alterado a qualquer momento), e esse é o limite que o *Math.random()* gerará; 
    Depois temos a variável **numeroSecreto** recebendo o valor “parseInt(Math.random() * numeroMaximo + 1”. *ParseInt* é uma declaração para que o *Math.random()* gere números acima de 0, que seria basicamente um número inteiro. Já o *Math.random()* tem como finalidade gerar números aleatórios, dessa forma, faz com que o projeto fique com um número diferente a cada vez que abrimos o *index.html* ou apertarmos *F5* no navegador. Quando múltiplicado pelo **numeroMaximo**, é definido que gerará até um número a menos, por isso é colocado "+1";
    A variável **chute** não está com um valor definido, portanto, cada vez digitar um valor no alerta, esse valor será armazenado na variável. O intuito é que esse valor coincida com o valor da variável **numeroSecreto**;
