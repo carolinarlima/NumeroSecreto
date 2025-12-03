@@ -19,4 +19,7 @@
   E por último temos um “Operador Ternário”, que substitui o que era para ser mais uma condição de comparação (*if/else*), e nele estão as variáveis **palavraTentativa** e **tentativas**. A ideia foi comparar, de forma lógica, se a variável **tentativas** tiver mais de 1 como valor definido, aparecerá “tentativas” no prompt, senão, aparecerá “tentativa”.
   #
 ### Esse foi um projeto realizado na Alura, utilizei o código HTML e CSS da plataforma, porém, refiz o código JavaScript para estudar Lógica de Programação, e ao concluir o curso, ganhei um certificado.
-![Alura](https://avatars.githubusercontent.com/u/4975968?s=280&v=4)
+
+<img loading="lazy" src="https://cursos.alura.com.br/user/carolinarlima25/course/logica-programacao-mergulhe-programacao-javascript/certificate?lang=pt_BR" width="40" height="40"/> 
+<img loading="lazy" src="https://avatars.githubusercontent.com/u/4975968?s=280&v=4" width="40" height="40"/>
+
