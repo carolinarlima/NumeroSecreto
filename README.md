@@ -1,6 +1,7 @@
 # Número Secreto
 ## O projeto consiste em digitar o “número chute” até que ele valide com o “número secreto” e aparaça a imagem de parabenização para quem o acertar.
 ### Nesse código de JavaScript foram definidas as variáveis: **numeroMaximo**, **numeroSecreto**, **chute** e **tentativas**.
+### Página para Teste: [NumeroSecreto](https://carolinarlima.github.io/NumeroSecreto/)
    #
 #### **Uma breve explicação sobre a função de cada variável:**
    A variável **numeroMaximo** está com o valor 1000 (podendo ser alterado a qualquer momento), e esse é o limite que o *Math.random()* gerará; 
