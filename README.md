@@ -20,6 +20,5 @@
   #
 ### Esse foi um projeto realizado na Alura, utilizei o código HTML e CSS da plataforma, porém, refiz o código JavaScript para estudar Lógica de Programação, e ao concluir o curso, ganhei um certificado.
 
-<img loading="lazy" src="C:\Users\User\Downloads\JavaScript.pdf"> 
 <img loading="lazy" src="https://avatars.githubusercontent.com/u/4975968?s=280&v=4" width="40" height="40"/>
 
