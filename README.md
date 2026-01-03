@@ -66,7 +66,9 @@ Este projeto faz parte da minha jornada de transição de carreira para **Front-
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/carolinarlima)
 #
 Lógica desenvolvida por **Carolina Lima** e HTML e CSS desenvolvidos pela Alura (Projeto realizado pela Alura no curso de Programação para Iniciantes com JavaScript)
+<br>
 <img loading="lazy" src="https://avatars.githubusercontent.com/u/4975968?s=280&v=4" width="100" height="100"/>
+<br>
 
 ---
 ⭐️ *Se este projeto foi útil para seus estudos, sinta-se à vontade para dar uma estrela!*
