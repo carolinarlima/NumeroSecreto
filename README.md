@@ -1,25 +1,72 @@
-# Número Secreto
-## O projeto consiste em digitar o “número chute” até que ele valide com o “número secreto” e aparaça a imagem de parabenização para quem o acertar.
-### Nesse código de JavaScript foram definidas as variáveis: **numeroMaximo**, **numeroSecreto**, **chute** e **tentativas**.
-### Página para Teste: [NumeroSecreto](https://carolinarlima.github.io/NumeroSecreto/)
-   #
-#### **Uma breve explicação sobre a função de cada variável:**
-   A variável **numeroMaximo** está com o valor 1000 (podendo ser alterado a qualquer momento), e esse é o limite que o *Math.random()* gerará; 
-   #
-   Depois tem a variável **numeroSecreto** recebendo o valor “parseInt(Math.random() * numeroMaximo + 1”. *ParseInt* é uma declaração para que o *Math.random()* gere números acima de 0, que seria basicamente um número inteiro. Já o *Math.random()* tem como finalidade gerar números aleatórios, dessa forma, faz com que o projeto gere um número diferente cada vez que abre o *index.html* ou aperta *F5* no navegador. Quando múltiplicado pelo **numeroMaximo**, é definido que gerará até um número a menos, por isso é colocado "+1";
-   #
-   A variável **chute** não está com um valor definido, portanto, cada vez que digitar um valor no alerta, esse valor será armazenado na variável. O intuito é que esse valor coincida com o valor da variável **numeroSecreto**;
-   #
-   Já a variável **tentativas** está definida com o valor 1, e ela será usada como incrementador, então, toda vez que digitar um chute e não acertar, será somado “+1” e o acerto também será somado como uma tentativa.
-   #
-#### **Uma breve explicação sobre o código:**
-   No código tem uma condição de repetição (*while*), nela foi definida que o **chute** é diferente do **número secreto**, o que quer dizer, enquanto não acertar o número secreto, a condição de repetição será executada. E dentro dela tem a condição de comparação (*if e else*), nela foi definida que a variável chute recebeu o valor de *prompt*, que seria, toda vez que digitar um número, será definido na variável, e como está em repetição, só terá um fim quando o número do prompt for igual ao número definido na variável **numeroSecreto**; 
-   #
-  Logo abaixo da condição de repetição temos a variável **tentativas** em condição de contador (++), nela, cada tentativa contabiliza +1 (até mesmo o acerto do número secreto será contabilizado como uma tentativa), e o resultado aparecerá no “Alerta” com o número secreto.
-  #
-  E por último temos um “Operador Ternário”, que substitui o que era para ser mais uma condição de comparação (*if/else*), e nele estão as variáveis **palavraTentativa** e **tentativas**. A ideia foi comparar, de forma lógica, se a variável **tentativas** tiver mais de 1 como valor definido, aparecerá “tentativas” no prompt, senão, aparecerá “tentativa”.
-  #
-### Esse foi um projeto realizado na Alura, utilizei o código HTML e CSS da plataforma, porém, refiz o código JavaScript para estudar Lógica de Programação, e ao concluir o curso, ganhei um certificado.
+# 🔍 Jogo do Número Secreto
 
-<img loading="lazy" src="https://avatars.githubusercontent.com/u/4975968?s=280&v=4" width="40" height="40"/>
+> **Status do Projeto:** Concluído ✅
 
+Um desafio clássico de lógica de programação onde o objetivo é adivinhar um número gerado aleatoriamente pelo sistema entre 1 e 1000. O projeto utiliza interações via prompt para guiar o usuário com dicas de "maior" ou "menor".
+
+---
+
+## 🛠 Tecnologias e Ferramentas
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Estilo](https://img.shields.io/badge/Tema-Dark%20%26%20Neon-8A2BE2?style=for-the-badge)
+
+---
+
+## 🎮 Como Jogar
+
+Você pode testar o projeto diretamente pelo link abaixo:
+[**🔗 Abrir Jogo do Número Secreto**](https://carolinarlima.github.io/NumeroSecreto/)
+
+1. Ao carregar a página, um prompt será exibido solicitando um número entre 1 e 1000.
+2. Digite o seu palpite.
+3. O sistema informará se o número secreto é **maior** ou **menor** que o seu chute.
+4. O jogo continua até que você acerte o número!
+
+---
+
+## 🚀 Funcionalidades e Lógica
+
+* **Geração Aleatória:** Uso da função `Math.random()` para garantir que cada partida seja única.
+* **Estruturas de Controle:** Implementação de loops (`while`) e condicionais (`if/else`) para validar os palpites.
+* **Contador de Tentativas:** Ao final, o jogo exibe em quantas tentativas você conseguiu descobrir o número.
+* **Template Literals:** Uso de strings dinâmicas para mensagens personalizadas ao usuário.
+
+---
+
+## 🧠 Evolução como Desenvolvedora
+
+Este projeto faz parte da minha jornada de transição de carreira para **Front-End**. Através dele, consolidei fundamentos essenciais de JavaScript:
+* Manipulação de variáveis e tipos de dados.
+* Lógica de programação e algoritmos de busca.
+* Interação básica com o usuário através do navegador.
+
+---
+
+## 💻 Como clonar e rodar localmente
+
+1.  **Clone o repositório:**
+    ```bash
+    git clone [https://github.com/carolinarlima/NumeroSecreto.git](https://github.com/carolinarlima/NumeroSecreto.git)
+    ```
+2.  **Acesse a pasta:**
+    ```bash
+    cd NumeroSecreto
+    ```
+3.  **Execução:**
+    Abra o arquivo `index.html` no seu navegador de preferência.
+
+---
+
+## 📬 Contato
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/carolinarlima/)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/carolinarlima)
+#
+Lógica desenvolvida por **Carolina Lima** e HTML e CSS desenvolvidos pela Alura (Projeto realizado pela Alura no curso de Programação para Iniciantes com JavaScript)
+<img loading="lazy" src="https://avatars.githubusercontent.com/u/4975968?s=280&v=4" width="100" height="100"/>
+
+---
+⭐️ *Se este projeto foi útil para seus estudos, sinta-se à vontade para dar uma estrela!*
