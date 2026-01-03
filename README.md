@@ -65,7 +65,8 @@ Este projeto faz parte da minha jornada de transição de carreira para **Front-
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/carolinarlima/)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/carolinarlima)
 #
-Lógica desenvolvida por **Carolina Lima** e HTML e CSS desenvolvidos pela Alura (Projeto realizado pela Alura no curso de Programação para Iniciantes com JavaScript)
+Lógica desenvolvida por **Carolina Lima** e HTML e CSS desenvolvidos pela **Alura**. <br>
+Projeto desenolvido pela **Alura** no curso **Lógica de Programação Com JavaScript**
 <br>
 <img loading="lazy" src="https://avatars.githubusercontent.com/u/4975968?s=280&v=4" width="100" height="100"/>
 <br>
